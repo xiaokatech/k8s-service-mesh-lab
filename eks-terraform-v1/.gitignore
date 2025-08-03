@@ -1,0 +1,15 @@
+# 本地 Terraform 目录
+.terraform/
+# 但不要排除 .terraform.lock.hcl 文件
+!.terraform.lock.hcl
+
+# 如果你想要锁定提供商版本，请取消下面这行的注释
+# .terraform.lock.hcl
+
+# Terraform 状态文件
+*.tfstate
+*.tfstate.*
+
+# 排除所有 .tfvars 文件，它们通常包含敏感数据
+*.tfvars
+*.tfvars.json
