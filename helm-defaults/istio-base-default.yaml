@@ -1,4 +1,5 @@
 # Bash
+# helm search repo istio/base
 # helm show values istio/base --version 1.17.1 > helm-defaults/istio-base-default.yaml
 
 global:

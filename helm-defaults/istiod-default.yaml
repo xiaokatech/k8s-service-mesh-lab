@@ -1,4 +1,5 @@
 # Bash
+# helm search repo istio/istiod
 # helm show values istio/istiod --version 1.17.1 > helm-defaults/istiod-default.yaml
 
 #.Values.pilot for discovery and mesh wide config
