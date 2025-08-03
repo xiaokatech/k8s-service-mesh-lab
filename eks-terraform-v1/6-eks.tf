@@ -10,7 +10,7 @@ resource "aws_iam_role" "demo" {
             "Principal": {
                 "Service": "eks.amazonaws.com"
             },
-            "Action": "sts:AssumeRole
+            "Action": "sts:AssumeRole"
         }
     ]
 }
