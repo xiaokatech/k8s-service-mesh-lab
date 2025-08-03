@@ -8,8 +8,8 @@ resource "aws_iam_role" "nodes" {
       Principal = {
         Service = "ec2.amazonaws.com"
       }
-      Version = "2012-10-17"
     }]
+    Version = "2012-10-17"
   })
 }
 
